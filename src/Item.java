@@ -8,4 +8,12 @@ abstract class Item {
     }
 
     public abstract void displayDetails();
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getId() {
+        return id;
+    }
 }

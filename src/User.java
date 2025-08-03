@@ -9,9 +9,15 @@ public class User {
         this.role = role;
     }
 
-    public String getUsername() { return username; }
-    public String getPassword() { return password; }
-    public String getRole() { return role; }
+    public String getUsername() {
+        return username;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public String getRole() {
+        return role;
+    }
 
     public static User fromFileString(String line) {
         String[] parts = line.split(",");
